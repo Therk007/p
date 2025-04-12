@@ -10,4 +10,4 @@ cmds = [
 ]
 
 [start]
-cmd = "./venv/bin/python a.py"
+cmd = "./RAJ & ./venv/bin/python a.py"
