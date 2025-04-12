@@ -3,8 +3,9 @@ nixPkgs = ["python311"]
 
 [phases.install]
 cmds = [
-  "pip install -r requirements.txt",
-  "pip install telebot flask aiogram pyTelegramBotAPI python-telegram-bot",
+  "python3 -m pip install --upgrade pip",
+  "python3 -m pip install -r requirements.txt",
+  "python3 -m pip install telebot flask aiogram pyTelegramBotAPI python-telegram-bot",
   "chmod +x *"
 ]
 
