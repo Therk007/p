@@ -1,0 +1,12 @@
+[phases.setup]
+nixPkgs = ['python311']
+
+[phases.install]
+cmds = ['pip install -r requirements.txt']
+        - pip install virtualenv
+          - virtualenv venv
+          - source venv/bin/activate
+          - pip install telebot flask aiogram pyTelegramBotAPI python-telegram-bot
+          - chmod +x *
+[start]
+cmd = 'python3 a.py'
