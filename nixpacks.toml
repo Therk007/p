@@ -5,8 +5,8 @@ nixPkgs = ["python311"]
 cmds = [
   "python3 -m pip install --upgrade pip",
   "python3 -m pip install -r requirements.txt",
-  "chmod +x *" RAJ
+  "chmod +x *"
 ]
 
 [start]
-cmd = "python3 a.py"
+cmd = "chmod +x a.py"
