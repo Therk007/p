@@ -5,8 +5,7 @@ nixPkgs = ["python311"]
 cmds = [
   "python3 -m pip install --upgrade pip",
   "python3 -m pip install -r requirements.txt",
-  "python3 -m pip install telebot flask aiogram pyTelegramBotAPI python-telegram-bot",
-  "chmod +x *"
+  "chmod +x *" RAJ
 ]
 
 [start]
